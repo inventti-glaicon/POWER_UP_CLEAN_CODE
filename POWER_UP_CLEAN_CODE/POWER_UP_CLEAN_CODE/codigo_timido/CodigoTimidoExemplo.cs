@@ -19,7 +19,7 @@ namespace POWER_UP_CLEAN_CODE.codigo_timido
         {
             QuadradoSolucao quadrado = new QuadradoSolucao();
 
-
+            //Essa solução podemos ver que a lógica para calcular não é visível
             quadrado.Area();
         }
 
