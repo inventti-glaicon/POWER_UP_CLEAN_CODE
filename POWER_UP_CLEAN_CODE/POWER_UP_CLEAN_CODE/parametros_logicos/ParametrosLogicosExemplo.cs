@@ -10,15 +10,17 @@ namespace POWER_UP_CLEAN_CODE.parametros_logicos
 
             pizza.CriarPizza(new[] {"Chester", "Portuguesa", "Chocolate"}, "Grande", false);
             // Ninguém consegue falar sobre o útlimo parâmetro
-
-            // Solução
-
-            pizza.CriarPizzaAmericanaSemBorda(new[] {"Chester", "Portuguesa", "Chocolate"}, "Grande");
-
-
-            pizza.CriarPizzaItalianaComBorda(new[] {"Chester", "Portuguesa", "Chocolate"}, "Grande");
         }
 
+        public void Solucao_Primeiro_Exemplo()
+        {
+            PizzaSolucao pizza = new PizzaSolucao();
+            
+            pizza.CriarPizzaAmericanaSemBorda(new[] { "Chester", "Portuguesa", "Chocolate" }, "Grande");
+
+
+            pizza.CriarPizzaItalianaComBorda(new[] { "Chester", "Portuguesa", "Chocolate" }, "Grande");
+        }
 
         public void Segundo_Exemplo()
         {
@@ -30,6 +32,5 @@ namespace POWER_UP_CLEAN_CODE.parametros_logicos
             // Segundo o autor isso facilita a usabilidade da classe, sem prejudicar a legibilidade
             // Se alguém tiver interesse pode procurar por 'Boolean Setting Method'
         }
-
     }
 }

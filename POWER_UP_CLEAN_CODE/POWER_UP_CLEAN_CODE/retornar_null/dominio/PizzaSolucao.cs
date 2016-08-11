@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace POWER_UP_CLEAN_CODE.retornar_null.dominio
 {
-    public class Pizza
+    public class PizzaSolucao
     {
         public List<string> ObterSabores(TipoDaPizza tipoDaPizza)
         {
@@ -14,9 +14,10 @@ namespace POWER_UP_CLEAN_CODE.retornar_null.dominio
 
                 case TipoDaPizza.Italiana:
                     return new List<string>() { "Carne", "Mussarela", "Tomates" };
-            }
 
-            return null;
+                default: return new List<string>();
+                    throw new Exception("Tipo de pizza não implementado");
+            }
         }
     }
 }

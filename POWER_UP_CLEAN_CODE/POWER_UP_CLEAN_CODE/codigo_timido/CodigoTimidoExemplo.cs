@@ -1,4 +1,6 @@
-﻿namespace POWER_UP_CLEAN_CODE.codigo_timido
+﻿using POWER_UP_CLEAN_CODE.codigo_timido.dominio;
+
+namespace POWER_UP_CLEAN_CODE.codigo_timido
 {
     public class CodigoTimidoExemplo
     {
@@ -11,6 +13,12 @@
             OutroProcesso(quadrado);
 
             OutraClasseDoCodigo(quadrado);
+        }
+
+        public void Solucao()
+        {
+            QuadradoSolucao quadrado = new QuadradoSolucao();
+
 
             quadrado.Area();
         }

@@ -3,10 +3,5 @@
     public class Pizza
     {
         public bool EstaFatiada { get; set; }
-
-
-        public void Fatiar()
-        {
-        }
     }
 }

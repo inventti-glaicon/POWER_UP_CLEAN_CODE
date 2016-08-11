@@ -27,23 +27,5 @@
                 ehPizzaFina = false;
             }
         }
-        
-        public void CriarPizzaAmericanaSemBorda(string[] sabores, string tamanho)
-        {
-            saboresDaPizza = sabores;
-            tamanhoPizza = tamanho;
-
-            temBorda = false;
-            ehPizzaFina = true;
-        }
-
-        public void CriarPizzaItalianaComBorda(string[] sabores, string tamanho)
-        {
-            saboresDaPizza = sabores;
-            tamanhoPizza = tamanho;
-
-            temBorda = true;
-            ehPizzaFina = false;
-        }
     }
 }
