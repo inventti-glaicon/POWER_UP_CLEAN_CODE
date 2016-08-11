@@ -43,11 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="parametros_logicos\dominio\Pizza.cs" />
+    <Compile Include="parametros_logicos\dominio\TelaDoAtualizador.cs" />
+    <Compile Include="parametros_logicos\ParametrosLogicosExemplo.cs" />
+    <Compile Include="parametros_saida\dominio\CortadorDePizza.cs" />
+    <Compile Include="parametros_saida\ParametrosSaidaExemplo.cs" />
+    <Compile Include="parametros_saida\dominio\Pizza.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="codigo_timido\" />
+    <Folder Include="polimorfismo_inves_switchs\" />
+    <Folder Include="retornar_null\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
