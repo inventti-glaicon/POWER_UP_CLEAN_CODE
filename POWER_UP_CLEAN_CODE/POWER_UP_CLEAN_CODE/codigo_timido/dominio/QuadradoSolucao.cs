@@ -7,7 +7,6 @@
 
         // Quando concentramos o código em um mesmo código, nao precisamos varrer tod o código em busca dos atributos
         // Evitando que recompilar as dlls
-        // Isso já quebra o princípio de Open/Closed principles
         public int Area()
         {
             return Altura * Largura;

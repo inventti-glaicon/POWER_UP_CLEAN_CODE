@@ -4,6 +4,7 @@ namespace POWER_UP_CLEAN_CODE.codigo_timido
 {
     public class CodigoTimidoExemplo
     {
+        //Princípio de Aberto para extensões e Fechado para alterações - OCP
         public void Primeiro_Exemplo()
         {
             Quadrado quadrado = new Quadrado();

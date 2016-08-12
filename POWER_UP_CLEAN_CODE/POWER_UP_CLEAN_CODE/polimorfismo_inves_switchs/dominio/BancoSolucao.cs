@@ -5,7 +5,7 @@
         public double Valor { get; set; }
 
         //Solução
-        public abstract double AplicarJuros();
+        public abstract double AplicarJurosSobreValor();
     }
 
     public class ClientePrataSolucao : ClienteBaseSolucao
@@ -15,7 +15,7 @@
             get { return 0.5; }
         }
 
-        public override double AplicarJuros()
+        public override double AplicarJurosSobreValor()
         {
             return Valor * Juros;
         }
@@ -28,7 +28,7 @@
             get { return 0.5; }
         }
         
-        public override double AplicarJuros()
+        public override double AplicarJurosSobreValor()
         {
             return Valor * Juros / 2;
         }
@@ -41,7 +41,7 @@
             get { return 0.2; }
         }
         
-        public override double AplicarJuros()
+        public override double AplicarJurosSobreValor()
         {
             return Valor * Juros;
         }
@@ -50,7 +50,7 @@
     {
         public double PegarEmprestimo(ClienteBaseSolucao cliente)
         {
-            return cliente.AplicarJuros();
+            return cliente.AplicarJurosSobreValor();
         }
     }
 }

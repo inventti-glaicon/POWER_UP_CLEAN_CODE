@@ -8,6 +8,7 @@ namespace POWER_UP_CLEAN_CODE.parametros_saida.dominio
         {
             Thread.Sleep(320);
 
+            // Pode indicar outro problema 
             pizza.EstaFatiada = true;
 
             return true;

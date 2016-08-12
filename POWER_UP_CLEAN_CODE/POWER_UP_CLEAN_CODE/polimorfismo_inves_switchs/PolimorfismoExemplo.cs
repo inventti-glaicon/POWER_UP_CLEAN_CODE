@@ -5,6 +5,7 @@ namespace POWER_UP_CLEAN_CODE.polimorfismo_inves_switchs
 {
     public class PolimorfismoExemplo
     {
+        //Princípio de Aberto para extensões e Fechado para alterações - OCP
         public void Primeiro_Exemplo()
         {
             ClienteOuro clienteOuro = new ClienteOuro();

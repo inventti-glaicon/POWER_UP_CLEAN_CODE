@@ -25,10 +25,15 @@ namespace POWER_UP_CLEAN_CODE.parametros_saida
         {
             PizzaSolucao pizza = new PizzaSolucao();
             
-            // Solução
             pizza.Fatiar();
             // Dessa forma quem está alterando o estado do atributo de pizza é o seu próprio objeto
-            // Caso seja necessário, pelo menos que deixe explicíto a inteção utilizando o 'REF'
+            // Caso seja necessário, pelo menos que deixe explícito a intenção utilizando o 'REF'
+
+
+
+            //CortadorDePizza cortador = new CortadorDePizza();
+            //Pizza pizzaTeste = new Pizza();
+            //bool pizzaCortada = cortador.CortarPizza(ref pizzaTeste);
         }
     }
 }

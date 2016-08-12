@@ -38,9 +38,10 @@ namespace POWER_UP_CLEAN_CODE.retornar_null
         {
             PizzaSolucao pizza = new PizzaSolucao();
 
-            // Solução? 
+            // Solução
             // Retornar uma exceção ou um objeto vazio - Link compartilhado Padrão de Projeto: Objeto Nulo - http://www.thiengo.com.br/padrao-de-projeto-objeto-nulo
             var sabores = pizza.ObterSabores(TipoDaPizza.Vegetariana);
+            Console.Write(String.Join(" ,", sabores));
         }
     }
 }
